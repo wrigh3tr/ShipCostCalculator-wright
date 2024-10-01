@@ -15,6 +15,7 @@ public class Main {
             console.nextLine();
             if (itemPrice >= FREE_Ship) {
                 shipCost = 0;
+                System.out.println("Your Shipping Cost is " + shipCost + " and Price is " + itemPrice);
 
             } else {
                 shipCost = Ship_Rate * itemPrice;
@@ -27,4 +28,8 @@ public class Main {
         }
     }
 }
+
+
+
+
 
