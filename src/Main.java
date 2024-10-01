@@ -15,11 +15,12 @@ public class Main {
             console.nextLine();
             if (itemPrice >= FREE_Ship) {
                 shipCost = 0;
-                System.out.println("Your Shipping Cost is " + shipCost + " and Price is " + itemPrice);
+                System.out.println("Your Shipping Cost is $" + shipCost + " and Price is $" + itemPrice);
 
             } else {
                 shipCost = Ship_Rate * itemPrice;
                 totalCost = itemPrice + shipCost;
+                System.out.println("Your Shipping cost is $" + shipCost + " and Price is $" + totalCost);
             }
         } else {
             trash = console.nextLine();
